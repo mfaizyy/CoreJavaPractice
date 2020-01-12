@@ -5,24 +5,34 @@ public class Encapsulate
 {
 	private int rollno;
 	private String name;
+	private int age;
+	private int size;
 	
-	//get methods to print value 
-	public int getrollno()
-	{
+	public int getRollno() {
 		return rollno;
 	}
-	public String getname()
-	{
-		return name;
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
 	}
 	
-	//set methods to get value as input
-	public int setrollno(int rollno)
-	{
-		return this.rollno=rollno;
+	public String getName() {
+		return name;
 	}
-	public void setname(String name)
-	{
-		this.name=name;
+	public void setName(String name) {
+		this.name = name;
 	}
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getSize() {
+		return size;
+	}
+	public void setSize(int size) {
+		this.size = size;
+	}	
 }

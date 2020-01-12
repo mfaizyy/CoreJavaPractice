@@ -5,9 +5,14 @@ public class test
 	public static void main(String[] args) 
 	{
 		Encapsulate obj = new Encapsulate();
-		obj.setrollno(101);
-		obj.setname("faizan");
-		System.out.println("the rollno is:- "+obj.getrollno());
-		System.out.println("the rollno is:- "+obj.getname());
+		obj.setRollno(101);
+		obj.setName("faizan");
+		obj.setSize(7);
+		obj.setAge(27);
+		System.out.println("The name of geek is:- "+obj.getName());
+		System.out.println("The age of geek is:-"+obj.getAge());
+		System.out.println("The roll number of geek is:-"+obj.getRollno());
+		System.out.println("The size of geek is:-"+obj.getSize());
+		
 	}
 }
